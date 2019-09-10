@@ -12,7 +12,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url() ?>assets/images/favicon.png">
-    <title>Metrovic login</title>
+    <title>XTAFF - Admin</title>
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url() ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -53,7 +53,10 @@
                 <?php endif ?>
 
                 <form class="form-horizontal form-material" id="login-form" action="<?php echo base_url('auth/log'); ?>" method="post">
-                    <h2 class="box-title m-b-40 text-center">Sign In Metrovic</h2>
+                    <div class="text-center">
+                        <a class="navbar-brand-login" href="/"><img alt="Pet Anjo" src="<?php echo base_url() ?>assets/images/logo-transparente.png"></a>
+                        <h3 class="padding-bottom border-login"></h3>
+                    </div>
                     <div class="form-group ">
                         <div class="col-xs-12">
                             <input class="form-control" type="email" name="user_name" required="" placeholder="Username"> </div>
@@ -74,7 +77,7 @@
 
                     <div class="form-group text-center m-t-50">
                         <div class="col-xs-12">
-                            <button class="btn btn-info btn-block text-uppercase waves-effect waves-light" type="submit">Log In</button>
+                            <button class="btn btn-info btn-block text-uppercase waves-effect waves-light" type="submit">Entrar</button>
                         </div>
                     </div>
 

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url() ?>assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url() ?>assets/images/logo.png">
     <title>Seu Canto - Imóveis</title>
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url() ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -90,15 +90,15 @@
                         <b>
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="<?php echo base_url() ?>assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                            <img src="<?php echo base_url() ?>assets/images/logo_dois.png" alt="homepage" class="dark-logo" style="width:10em;"/>
                             <!-- Light Logo icon -->
-                            <img src="<?php echo base_url() ?>assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                            <img src="<?php echo base_url() ?>assets/images/logo_dois.png" alt="homepage" class="light-logo" style="width:10em;" />
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span>
                          <!-- dark Logo text -->
-                         <img src="<?php echo base_url() ?>assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                         <img src="<?php echo base_url() ?>assets/images/logo_dois.png" alt="homepage" class="dark-logo" style="width:10em;" />
                          <!-- Light Logo text -->    
                          <!-- <img src="<?php echo base_url() ?>assets/images/logo-light-text.png" class="light-logo" alt="homepage" />-->
                         </span> 
@@ -136,7 +136,7 @@
         <style type="text/css">
            
             .topbar {
-                background:#fb8c00;
+                background:#F58023;
             }
             header.home {
                 background: url('assets/images/maps.jpg') center center no-repeat;
@@ -190,7 +190,7 @@
             }
             footer {
                 padding: 50px 0;
-                background-color: #fb8c00;
+                background-color: #F58023;
                 color: #fff;
             }
             footer.copyright {

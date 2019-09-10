@@ -645,7 +645,7 @@ Labels
     border: 1px solid #2f3d4a; }
 
 .label-light-default {
-  background-color: #fb8c00;
+  background-color: #F58023;
   color: #f6f6f6; }
 
 /*******************
@@ -995,25 +995,26 @@ Buttons
 
   .btn-default,
   .btn-default.disabled {
-    background: #fb8c00;
-    border: 1px solid #fb8c00;
+    background: #F58023;
+    border: 1px solid #F58023;
     -webkit-box-shadow: 0 2px 2px 0 rgba(116, 96, 238, 0.14), 0 3px 1px -2px rgba(116, 96, 238, 0.2), 0 1px 5px 0 rgba(116, 96, 238, 0.12);
     box-shadow: 0 2px 2px 0 rgba(116, 96, 238, 0.14), 0 3px 1px -2px rgba(116, 96, 238, 0.2), 0 1px 5px 0 rgba(116, 96, 238, 0.12);
     -webkit-transition: 0.2s ease-in;
     -o-transition: 0.2s ease-in;
-    transition: 0.2s ease-in; }
+    transition: 0.2s ease-in;
+    color:#fff; }
     .btn-default:hover,
     .btn-default.disabled:hover {
-      background: #fb8c00;
+      background: #F58023;
       -webkit-box-shadow: 0 14px 26px -12px rgba(116, 96, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(116, 96, 238, 0.2);
       box-shadow: 0 14px 26px -12px rgba(116, 96, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(116, 96, 238, 0.2);
-      border: 1px solid #fb8c00; }
+      border: 1px solid #fb8c00; color:#fff;}
     .btn-default.active, .btn-default:focus,
     .btn-default.disabled.active,
     .btn-default.disabled:focus {
-      background: #fb8c00;
+      background: #F58023;
       -webkit-box-shadow: 0 14px 26px -12px rgba(116, 96, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(116, 96, 238, 0.2);
-      box-shadow: 0 14px 26px -12px rgba(116, 96, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(116, 96, 238, 0.2); }
+      box-shadow: 0 14px 26px -12px rgba(116, 96, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(116, 96, 238, 0.2); color:#fff; }
     
 
 

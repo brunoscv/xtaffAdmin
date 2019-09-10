@@ -8,8 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url() ?>assets/images/favicon.png">
-    <title>Seu Canto - Imóveis</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url() ?>assets/images/logo.png">
+    <title>XTAFF - Laboratório Artístico</title>
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url() ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- chartist CSS -->
@@ -61,6 +61,10 @@
     <link href="<?php echo base_url() ?>assets/plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
     <link href="<?php echo base_url() ?>assets/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
+    <!-- Lato Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+
     <!-- Custom CSS -->
     <link href="<?php echo base_url() ?>assets/css/style.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
@@ -90,15 +94,15 @@
                         <b>
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="<?php echo base_url() ?>assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                            <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" alt="homepage" class="dark-logo" style="width:10em;"/>
                             <!-- Light Logo icon -->
-                            <img src="<?php echo base_url() ?>assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                            <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" alt="homepage" class="light-logo" style="width:10em;" />
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span>
                          <!-- dark Logo text -->
-                         <img src="<?php echo base_url() ?>assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                         <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" alt="homepage" class="dark-logo" style="width:10em;" />
                          <!-- Light Logo text -->    
                          <!-- <img src="<?php echo base_url() ?>assets/images/logo-light-text.png" class="light-logo" alt="homepage" />-->
                         </span> 
@@ -108,47 +112,50 @@
                 
                 <div class="navbar-collapse navbar-right right">  
                     <!-- toggle and nav items -->
-                    
-                    <ul class="navbar-nav ml-auto mt-md-0 d-flex align-items-center">
-                        <li class="nav-item mr-2"><a class="btn btn-outline-light" href=""><i class="fa fa-home"></i> A Seu Canto</a></li>
-                        <li class="nav-item mr-2"><a class="btn btn-outline-light" href=""><i class="fa fa-bullhorn"></i> Anuncie</a></li>
-                        <li class="nav-item mr-2"><a class="btn btn-outline-light" href=""><i class="fa fa-rocket"></i> Indique</a></li>
-                        <li class="nav-item mr-2"><a class="btn  btn-outline-light" href=""><i class="fa fa-lock"></i> Entrar ou Registrar</a></li>
-                    </ul>
-                    <!-- User profile and search -->
-                    <ul class="navbar-nav my-lg-0">
+                    <ul class="navbar-nav" style="margin: 0 auto;">
+                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-home"></i> QUEM SOMOS</a></li>
+                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-bullhorn"></i> PRODUTOS</a></li>
+                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-rocket"></i> CURRÍCULOS</a></li>
+                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-user"></i> CLIENTES</a></li>
+                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-archive"></i> ORÇAMENTOS</a></li>
+                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-users"></i> EQUIPE</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         
-        <!-- Topbar header - style you can find in pages.scss -->
-        <header class="home">
-            <div class="container-fluid vcenter">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h1 style="line-height:1.5em"><?php echo strtoupper("A SEU CANTO É O LUGAR PERFEITO PARA O SEU IMÓVEL");?></h1>
-                        <form method="get" id="searchHome" action="#">
-                            <input type="hidden" id="rua" name="endereco">
-                            <input type="hidden" id="cidadeId" name="cidade">
-                            <input type="hidden" id="bairroId" name="bairros">
-                            <div class="col-md-8 col-sm-8 col-xs-12 no-padding-horizontal ml-auto mx-auto">
-                                <div class="form-group typeahead">
-                                    <input type="text" id="inputBuscarImovel" class="form-control" placeholder="Pesquise por código, bairro, rua." autocomplete="off">
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-sm-3 col-xs-12 form-group ml-auto mx-auto">
-                            
-                                <a href="<?php echo site_url(); ?>properties" id="btnBuscarImovel" class="btn btn-default text-white" name="btnSubmit"><i class="fa fa-search"></i> Buscar</a>
-                            </div>
-                            
-                        </form>
-                        <p class="text">Imóveis residenciais para Alugar, Vender e Comprar.</p>
+        <section>
+            <!-- The slideshow -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="<?php echo base_url().'assets/images/banners/banner-site-provisorio-web.jpg';?>" style="width:100%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="<?php echo base_url().'assets/images/banners/banner-marketing-digital.png';?>"  style="width:100%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="<?php echo base_url().'assets/images/banners/banner-eventos.png';?>" style="width:100%;" >
+                    </div>
+                    <div class="carousel-item">
+                        <img src="<?php echo base_url().'assets/images/banners/banner-branding.png';?>" style="width:100%;" >
+                    </div>
+                    <div class="carousel-item">
+                        <img src="<?php echo base_url().'assets/images/banners/banner-audiovisual.png';?>" style="width:100%;" >
                     </div>
                 </div>
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
             <div class="overlay" style="background: rgba(0,0,0,0.4);"></div>
-        </header>
+            <!-- The slideshow -->
+        </section>
+
         <style type="text/css">
             #inputBuscarImovel {
                 border-radius: 0px;
@@ -161,7 +168,7 @@
                 padding:0.5em 2em;
             }
             .topbar {
-                background:#fb8c00;
+                background:#35A88E;
             }
             header.home {
                 background: url('assets/images/banner1.jpg') center center no-repeat;
@@ -239,13 +246,13 @@
             }
             footer {
                 padding: 50px 0;
-                background-color: #fb8c00;
+                background-color: #F58023;
                 color: #fff;
             }
             footer.copyright {
                 padding: 0;
                 color: #fff;
-                background-color: #c25e00;
+                background-color: #35A88E;
                 line-height: 60px;
             }
             .btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before, .btn-toolbar::after, 
@@ -258,6 +265,12 @@
                 display: table;
                 content: " ";
             }
+            .topmenu-link {
+                color: #fff;
+                font-family: 'Lato', serif; 
+                font-weight:700
+            }
+           
         </style>
         <!-- End Topbar header -->
         
@@ -268,57 +281,11 @@
         <!-- ==========================Dynamicaly Show Main Page Content============================ -->
         </div>
         <!-- footer -->            
-        <footer class="container-fluid" style="padding: 4em 0 3em 0; color: #fff">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-3 visible-lg visible-md">
-                                <h4 style="color:#fff;">Menu</h4>
-                                <ul class="site-map list-unstyled">
-                                    <li><a style="color:#fff;" target="_top" href="#"><i class="fa fa-home"></i> A Seu Canto</a></li>
-                                    <li><a style="color:#fff;" target="_blank" href="#"><i class="fa fa-bullhorn"></i> Anuncie</a></li>
-                                    <li><a style="color:#fff;" target="_top" href="buscar"><i class="fa fa-rocket"></i> Indique</a></li>
-                                    <li><a style="color:#fff;" target="_top" href="favoritos"><i class="fa fa-lock"></i> Entrar ou Registrar</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3 visible-lg visible-md">
-                                <h4 style="color:#fff;">Como funciona</h4>
-                                <ul class="site-map list-unstyled">
-                                    <li><a style="color:#fff;" target="_top" href="#"> Busque seu Imóvel </a></li>
-                                    <li><a style="color:#fff;" target="_top" href="#"> Indique um Imóvel </a></li>
-                                    <li><a style="color:#fff;" target="_top" href="#"> Marque uma Visita </a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3">
-                                <h4 style="color:#fff;">Redes Sociais</h4>
-                                <ul class="social list-inline">
-                                    <li><a style="color:#fff;" target="_top" href="" rel="nofollow"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a style="color:#fff;" target="_top" href="" rel="nofollow"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a style="color:#fff;" target="_top" href="" rel="nofollow"><i class="fa fa-youtube"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3 visible-lg visible-md">
-                                <h4 style="color:#fff;">Contatos</h4>
-                                <ul class="site-map list-unstyled">
-                                    <li><a style="color:#fff;" target="_top" href="#"><i class="fa fa-phone"></i> (86) 99999-9999</a></li>
-                                    <li><a style="color:#fff;" target="_blank" href="#"><i class="fa fa-phone"></i> (86) 9999-9999</a></li>
-                                    <li><a style="color:#fff;" target="_top" href="buscar"><i class="fa fa-map-marker"></i> Rua Álvaro Mendes, 1947</a></li>
-                                    <li><a style="color:#fff;" target="_top" href="buscar"><i class="fa fa-home"></i> Teresina, Piauí</a></li>
-                                    <li><a style="color:#fff;" target="_top" href="favoritos"><i class="fa fa-envelope"></i> Email@email.com.br</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- End footer -->
         <footer class="container-fluid copyright">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <p style="font-size:14px;"><?php echo "© Seu Canto " . date("Y") . ". Todos os direitos Reservados.";?> </p>
+                        <p  style="font-family: 'Lato', sans-serif; color:#fff; font-weight:700; text-align: center"><?php echo "© XTAFF - Laboratório Artístico " . date("Y") . ". Todos os direitos Reservados.";?> </p>
                     </div>
                 </div>
             </div>

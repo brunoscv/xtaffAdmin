@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url() ?>assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url() ?>assets/images/logo.png">
     <title>Seu Canto - Imóveis</title>
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url() ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -50,15 +50,15 @@
                         <b>
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="<?php echo base_url() ?>assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                            <img src="<?php echo base_url() ?>assets/images/logo_dois.png" alt="homepage" class="dark-logo" style="width:10em;"/>
                             <!-- Light Logo icon -->
-                            <img src="<?php echo base_url() ?>assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                            <img src="<?php echo base_url() ?>assets/images/logo_dois.png" alt="homepage" class="light-logo" style="width:10em;" />
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span>
                          <!-- dark Logo text -->
-                         <img src="<?php echo base_url() ?>assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                         <img src="<?php echo base_url() ?>assets/images/logo_dois.png" alt="homepage" class="dark-logo" style="width:10em;" />
                          <!-- Light Logo text -->    
                          <!-- <img src="<?php echo base_url() ?>assets/images/logo-light-text.png" class="light-logo" alt="homepage" />-->
                         </span> 
@@ -95,81 +95,81 @@
         <!-- </header> -->
         <style type="text/css">
            
-            .topbar {
-                background:#fb8c00;
-            }
-            header.home {
-                background: url('assets/images/maps.jpg') center center no-repeat;
-                background-size: cover;
-                max-height: 350px;
-                position: relative;
-                color: #fff;
-            }
+           .topbar {
+               background:#F58023;
+           }
+           header.home {
+               background: url('assets/images/maps.jpg') center center no-repeat;
+               background-size: cover;
+               max-height: 350px;
+               position: relative;
+               color: #fff;
+           }
 
-            header.home .container-fluid {
-                height: 640px;
-                position: relative;
-                z-index: 20;
-            }
-            .vcenter {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .container-fluid {
-                padding-right: 15px;
-                padding-left: 15px;
-                margin-right: auto;
-                margin-left: auto;
-            }
-            header.home {
-                color: #fff;
-            }
-            header.home h1 {
-                font-size: 55px;
-                font-weight: 500;
-                color: #fff;
-            }
-            header.home h2 {
-                font-size: 22px;
-                font-weight: 300;
-                margin-bottom: 40px;
-                color: #fff;
-            }
-            
-            header.home .overlay {
-                width: 100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-                background: rgba(0,0,0,.3);
-                position: absolute;
-                z-index: 19;
-                object-fit: cover;
-                object-position: center center;
-            }
-            footer {
-                padding: 50px 0;
-                background-color: #fb8c00;
-                color: #fff;
-            }
-            footer.copyright {
-                padding: 0;
-                color: #fff;
-                background-color: #c25e00;
-                line-height: 60px;
-            }
-            .btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before, .btn-toolbar::after, 
-            .btn-toolbar::before, .clearfix::after, .clearfix::before, .container-fluid::after, .container-fluid::before, 
-            .container::after, .container::before, .dl-horizontal dd::after, .dl-horizontal dd::before, .form-horizontal 
-            .form-group::after, .form-horizontal .form-group::before, .modal-footer::after, .modal-footer::before, 
-            .modal-header::after, .modal-header::before, .nav::after, .nav::before, .navbar-collapse::after, 
-            .navbar-collapse::before, .navbar-header::after, .navbar-header::before, .navbar::after, .navbar::before, 
-            .pager::after, .pager::before, .panel-body::after, .panel-body::before, .row::after, .row::before {
-                display: table;
-                content: " ";
-            }
-        </style>
+           header.home .container-fluid {
+               height: 350px;
+               position: relative;
+               z-index: 20;
+           }
+           .vcenter {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+           }
+           .container-fluid {
+               padding-right: 15px;
+               padding-left: 15px;
+               margin-right: auto;
+               margin-left: auto;
+           }
+           header.home {
+               color: #fff;
+           }
+           header.home h1 {
+               font-size: 55px;
+               font-weight: 500;
+               color: #fff;
+           }
+           header.home h2 {
+               font-size: 22px;
+               font-weight: 300;
+               margin-bottom: 40px;
+               color: #fff;
+           }
+           
+           header.home .overlay {
+               width: 100%;
+               height: 100%;
+               top: 0;
+               left: 0;
+               background: rgba(0,0,0,.3);
+               position: absolute;
+               z-index: 19;
+               object-fit: cover;
+               object-position: center center;
+           }
+           footer {
+               padding: 50px 0;
+               background-color: #F58023;
+               color: #fff;
+           }
+           footer.copyright {
+               padding: 0;
+               color: #fff;
+               background-color: #c25e00;
+               line-height: 60px;
+           }
+           .btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before, .btn-toolbar::after, 
+           .btn-toolbar::before, .clearfix::after, .clearfix::before, .container-fluid::after, .container-fluid::before, 
+           .container::after, .container::before, .dl-horizontal dd::after, .dl-horizontal dd::before, .form-horizontal 
+           .form-group::after, .form-horizontal .form-group::before, .modal-footer::after, .modal-footer::before, 
+           .modal-header::after, .modal-header::before, .nav::after, .nav::before, .navbar-collapse::after, 
+           .navbar-collapse::before, .navbar-header::after, .navbar-header::before, .navbar::after, .navbar::before, 
+           .pager::after, .pager::before, .panel-body::after, .panel-body::before, .row::after, .row::before {
+               display: table;
+               content: " ";
+           }
+       </style>
         <!-- End Topbar header -->
         
         <!-- Page wrapper  -->

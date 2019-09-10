@@ -1,323 +1,459 @@
-<!-- ============================================================== -->
-<!-- Container fluid  -->
-<!-- ============================================================== -->
-<div class="container-fluid">
-    <!-- ============================================================== -->
-    <!-- Bread crumb and right sidebar toggle -->
-    <!-- ============================================================== -->
-    <!-- <div class="row page-titles">
-        <div class="col-md-5 col-8 align-self-center">
-            <h3 class="text-themecolor m-b-0 m-t-0">Dashboard</h3>
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                <li class="breadcrumb-item active">Dashboard</li>
-            </ol>
-        </div>
-        <div class="col-md-7 col-4 align-self-center">
-            <div class="d-flex m-t-10 justify-content-end">
-                <div class="d-flex m-r-20 m-l-10 hidden-md-down">
-                    <div class="chart-text m-r-10">
-                        <h6 class="m-b-0"><small>THIS MONTH</small></h6>
-                        <h4 class="m-t-0 text-info">$58,356</h4></div>
-                    <div class="spark-chart">
-                        <div id="monthchart"></div>
-                    </div>
-                </div>
-                <div class="d-flex m-r-20 m-l-10 hidden-md-down">
-                    <div class="chart-text m-r-10">
-                        <h6 class="m-b-0"><small>LAST MONTH</small></h6>
-                        <h4 class="m-t-0 text-primary">$48,356</h4></div>
-                    <div class="spark-chart">
-                        <div id="lastmonthchart"></div>
-                    </div>
-                </div>
-                <div class="">
-                    <button class="right-side-toggle waves-effect waves-light btn-success btn btn-circle btn-sm pull-right m-l-10"><i class="ti-settings text-white"></i></button>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- ============================================================== -->
-    <!-- End Bread crumb and right sidebar toggle -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- Start Page Content -->
-    <!-- ============================================================== -->
-    
-    <!-- GALERIA DE CATEGORIAS -->
+<div class="container-fluid">  
+  
     <section class="categoriesCards" style="margin: 4em 0;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="section-title text-center">
-                        <h1 style="margin-bottom:1em"> Nós oferecemos a você o nosso melhor </h1>     
+                        <h1 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700"> XTAFF - Laboratório Artísico </h1>     
                     </div>
                 </div>
             </div>
             <div class="row"> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">Nós temos as melhores opções.</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/project_2.png';?>" alt="">
-                        </div>
-                        <p>Na Seu Canto é possivel organizar suas buscas de imóveis por aréas, ruas e localização de sua preferência.
-                        Assim fica super simples encontrar a melhor opção para você.</p>
-                </div> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">A Seu Canto é comunicação!</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/discussion.png';?>" alt="">
-                        </div>
-                        <p>Aqui na plataforma Seu Canto temos a melhor equipe de relacionamentos do mercado! Iremos te ajudar
-                        na busca pela melhores ofertas de imóveis, com inteligência e comunicação.</p>
-                </div> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">Economize tempo.</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/deadline.png';?>" alt="">
-                        </div>
-                        <p>Com buscas intuitivas, a Seu Canto lhe oferta as melhores opções sem sair de casa, marca visitas aos locais
-                        que você mais gostou e te ajuda na escolha do seu imóvel perfeito!</p>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 1.5em;">
+                    <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
+                    <p style="text-indent: 2em; text-align:justify; font-family: 'Lato', sans-serif; color:#404040;">O mercado está em constante evolução e transformação, e pensando nisso o nosso laboratório artístico 
+                    resolveu oferecer serviços em diversas áreas. Somos uma agência de comunicação e marketing, 
+                    além de atuarmos na produção de eventos, sempre oferecendo os melhores serviços, 
+                    caminhos e resultados para nossos clientes e parceiros.</p>
+                    <p style="text-indent: 2em; text-align:justify; font-family: 'Lato', sans-serif; color:#404040;">Desenvolvemos um planejamento específico com o objetivo de promover a marca, produto, 
+                    serviço, indivíduo ou evento, buscando novos clientes, aprimorando o relacionamento com o público, 
+                    trabalhando a marca, posicionamento da empresa e explorando novos canais de comunicação, 
+                    principalmente os digitais. Com uma equipe eficaz e preparada, a <span style="font-weight:600">XTAFF</span> foi criada por profissionais da área 
+                    de Administração, Comunicação e Eventos, criativos e inteligentes, com atitude, que conhecem o que há de mais 
+                    atual no mercado, atuando no mesmo há mais de 15 anos, procurando atualização de conteúdo e construindo as 
+                    melhores soluções para sua empresa através de projetos e ferramentas dinâmicas, interativas e eficientes.</p>
                 </div> 
             </div>
         </div>
     </section>
-    <!-- GALERIA DE CATEGORIAS -->
 
-    <!-- GALERIA DE CATEGORIAS -->
+    <section class="categoriesCards">
+        <div class="row" style="padding: 2em 0; background-color: #35a88e; color: #fff !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-title-product text-center">
+                            <h1 style="font-family: 'Roboto Slab', serif; color:#fff; font-weight:700"> Produtos </h1>     
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
+                            <h4 class="sub-category-card text-center" style="font-family: 'Lato', sans-serif; color: #fff !important; margin-top: 1.5em;">Audiovisual</h4> 
+                            <div class="category-card" style="text-align:center; font-size:5em;"> 
+                                <img src="<?php echo base_url().'assets/images/produtos/camcorder-pro.png';?>" style="width:100%">
+                            </div>
+                            <p style="font-family: 'Lato', sans-serif; color:#fff; text-align:center">Vídeos institucionais, promocionais para web, clipes, fotos, cobertura de eventos.</p>
+                    </div> 
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
+                        <h4 class="sub-category-card text-center" style="font-family: 'Lato', sans-serif; color: #fff !important; margin-top: 1.5em;">Branding</h4> 
+                        <div class="category-card" style="text-align:center; font-size:5em;"> 
+                            <img src="<?php echo base_url().'assets/images/produtos/create-new.png';?>" style="width:100%">
+                        </div>
+                        <p style="font-family: 'Lato', sans-serif; color:#fff; text-align:center">Sua marca precisa ser construída com posicionamento, objetivos e uma análise de mercado. Sua identidade visual é um ativo importante da sua empresa que contribuirá para a melhor percepção por parte do seu público-alvo. 
+                        Criação e gestão da marca, campanhas publicitárias e materiais gráficos.</p>
+                    </div> 
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
+                        <h4 class="sub-category-card text-center" style="font-family: 'Lato', sans-serif; color: #fff !important; margin-top: 1.5em;">Eventos</h4> 
+                        <div class="category-card" style="text-align:center; font-size:5em;"> 
+                            <img src="<?php echo base_url().'assets/images/produtos/omnichannel.png';?>" style="width:100%">
+                        </div>
+                        <p style="font-family: 'Lato', sans-serif; color:#fff; text-align:center">Planejamento de eventos, produção e organização estrutural do evento. Staff, gestão e sistema de bar, produção de palco, camarim, bilheteria, camarim, som, iluminação. </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
+                        <h4 class="sub-category-card text-center" style="font-family: 'Lato', sans-serif; color: #fff !important; margin-top: 1.5em;">Marketing</h4> 
+                        <div class="category-card" style="text-align:center; font-size:5em;"> 
+                            <img src="<?php echo base_url().'assets/images/produtos/commercial.png';?>" style="width:100%">
+                        </div>
+                        <p style="font-family: 'Lato', sans-serif; color:#fff; text-align:center">Gestão de Redes Sociais, Endomarketing, Inbound Marketing, Marketing de Conteúdo.</p>
+                    </div>  
+                </div>
+                <div class="row"> 
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <a class="btn mt-4" href="#" style="background-color: #fff; color: #35A88E; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Buscar Orçamento</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="categoriesCards" style="margin: 4em 0;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="section-title text-center">
-                        <h1 style="margin-bottom:1em"> Nós oferecemos a você o nosso melhor </h1>      
+                        <h1 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700"> Parceiros </h1>      
                     </div>
                 </div>
             </div>
             <div class="row"> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">Nós temos as melhores opções.</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/project_2.png';?>" alt="">
-                        </div>
-                        <p>Na Seu Canto é possivel organizar suas buscas de imóveis por aréas, ruas e localização de sua preferência.
-                        Assim fica super simples encontrar a melhor opção para você.</p>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin: 0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/joromaplays.png';?>" style="width:80%">
+                    </div>
                 </div> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">A Seu Canto é comunicação!</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/discussion.png';?>" alt="">
-                        </div>
-                        <p>Aqui na plataforma Seu Canto temos a melhor equipe de relacionamentos do mercado! Iremos te ajudar
-                        na busca pela melhores ofertas de imóveis, com inteligência e comunicação.</p>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin: 0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/dope.png';?>" style="width:80%">
+                    </div>
                 </div> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">Economize tempo.</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/deadline.png';?>" alt="">
-                        </div>
-                        <p>Com buscas intuitivas, a Seu Canto lhe oferta as melhores opções sem sair de casa, marca visitas aos locais
-                        que você mais gostou e te ajuda na escolha do seu imóvel perfeito!</p>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin: 0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/restaura-jeans.png';?>" style="width:80%">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin: 0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/voltz.png';?>" style="width:80%">
+                    </div>
+                </div> 
+            </div>
+            <div class="row"> 
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin:0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/mermao-eu-quero-e-rock.png';?>" style="width:80%">
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin:0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/construtora-triunfo.png';?>" style="width:80%">
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin:0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/indecore.png';?>" style="width:80%">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin:0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/saude-em-casa.png';?>" style="width:80%">
+                    </div>
+                </div> 
+            </div>
+            <div class="row"> 
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin: 0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/blr.png';?>" style="width:80%">
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin: 0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/locomotiva.png';?>" style="width:80%">
+                    </div>
                 </div> 
             </div>
         </div>
     </section>
-    <!-- GALERIA DE CATEGORIAS -->
 
+    <div class="row">
+        <section class="categoriesCards" id="section-colab">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-title-product text-center">
+                            <h1 style="font-family: 'Roboto Slab', serif; color:#fff; font-weight:700">Quer fazer parte da nossa equipe? </h1>    
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-title text-center">
+                            <h3 class="mt-4 text-center" style="font-family: 'Lato', sans-serif; color: #fff;">É Descolado, alto astral, organizado e reponsável? Venha trabalhar com a gente!</h3>
+                        </div>
+                    </div> 
+                </div>
+                <div class="row"> 
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <a class="btn mt-4" href="#" style="background-color: #fff; color: #35A88E; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Preencher Currículo</a>
+                    </div> 
+                </div>
+            </div>
+        </section>
+    </div>
 
-    <!-- GALERIA DE CATEGORIAS -->
     <section class="categoriesCards" style="margin: 4em 0;">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-title text-center">
+                        <h1 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700"> Labels </h1>      
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Column -->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/sacrilegio.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Sacrilégio</h3>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Após sua ceia de Natal. Depois do Divino, vem o Sacrilégio.</p>
+                            <div class="row text-center">
+                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/metalsolidario.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Metal Solidário</h3>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center">Metal / Rock Autoral, Solidariedade e Entretenimento. </p>
+                            <div class="row text-center">
+                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/batatinha.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Batatinha do Louah</h3>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center">Melhor bloco de Rua da Zona Leste de Teresina. Cerca de 8 mil pessoas em 2019.</p>
+                            <div class="row text-center">
+                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Column -->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/houseloween.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Houseloween</h3>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Tradicional Halloween da Casa Abandonada. </p>
+                            <div class="row text-center">
+                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/sacrilegio.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Loco Rock Fest</h3>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Locomotiva + XTAFF + Rock’n’Roll = LOCOROCKFEST </p>
+                            <div class="row text-center">
+                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categoriesCards" style="margin: 4em 0;">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-title text-center">
+                        <h1 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700"> Contato </h1>      
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Column -->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-img pb-3 pt-3 text-center">
+                            <i class="fa fa-map-marker fa-4x" style="color: #35A88E"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Localização</h3>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Após sua ceia de Natal. Depois do Divino, vem o Sacrilégio.</p>
+                            <div class="row text-center">
+                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-img pb-3 pt-3 text-center">
+                            <i class="fa fa-envelope fa-4x" style="color: #35A88E"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Email</h3>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center">Metal / Rock Autoral, Solidariedade e Entretenimento. </p>
+                            <div class="row text-center">
+                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-img pb-3 pt-3 text-center">
+                            <i class="fa fa-phone fa-4x" style="color: #35A88E"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Telefones</h3>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center">Melhor bloco de Rua da Zona Leste de Teresina. Cerca de 8 mil pessoas em 2019.</p>
+                            <div class="row text-center">
+                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Column -->
+                <div class="col-lg-12">
+                    <form action="#" role="form" method="post">
+                        <div class="row">
+                            <div class="col-lg-6 col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" name="nome" class="form-control" placeholder="Nome" required="required">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" placeholder="E-mail"><br>
+                                </div>
+                            </div>        			
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" name="assunto" placeholder="assunto"><br> 
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" required="" name="mensagem" placeholder="mensagem"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-actions">
+                                    <button type="submit" class="btn" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase"> <i class="fa fa-check"></i> Enviar</button>
+                                    <button type="button" class="btn" style="background-color:#2F3D4A; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase"> <i class="fa fa-check"></i> Cancelar</button>
+                                </div> 
+                            </div>                         
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categoriesCards" style="margin: 4em 0 1em 0;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="section-title text-center">
-                    <h1 style="margin-bottom:1em"> Nós oferecemos a você o nosso melhor </h1>    
+                    <h1>Equipe XTAFF</h1>   
                     </div>
                 </div>
             </div>
-            <div class="row"> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">Nós temos as melhores opções.</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/project_2.png';?>" alt="">
+            <div class="row mt-4">
+                <div class="col-lg-3 col-xlg-3 col-md-3 col-sm-6">
+                    <div class="card" style="border:none; -webkit-box-shadow:none; box-shadow:none: -moz-box-shadow:none; border-radius:0; ">
+                        <div class="card-body">
+                            <center> <img src="<?php echo base_url() ?>assets/images/avatar-caio-galvao.png" class="img-circle" width="150">
+                                <h4 class="m-t-10" style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Caio Galvão</h4>
+                                <h6 class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Eventos </h6>
+                            </center>
                         </div>
-                        <p>Na Seu Canto é possivel organizar suas buscas de imóveis por aréas, ruas e localização de sua preferência.
-                        Assim fica super simples encontrar a melhor opção para você.</p>
-                </div> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">A Seu Canto é comunicação!</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/discussion.png';?>" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xlg-3 col-md-3 col-sm-6">
+                    <div class="card" style="border:none; -webkit-box-shadow:none; box-shadow:none: -moz-box-shadow:none; border-radius:0; ">
+                        <div class="card-body">
+                            <center> <img src="<?php echo base_url() ?>assets/images/avatar-ednardo-leao.png" class="img-circle" width="150">
+                                <h4 class="m-t-10" style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Ednardo Leão</h4>
+                                <h6 class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Marketing Digital </h6>
+                            </center>
                         </div>
-                        <p>Aqui na plataforma Seu Canto temos a melhor equipe de relacionamentos do mercado! Iremos te ajudar
-                        na busca pela melhores ofertas de imóveis, com inteligência e comunicação.</p>
-                </div> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">Economize tempo.</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/deadline.png';?>" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xlg-3 col-md-3 col-sm-6">
+                    <div class="card" style="border:none; -webkit-box-shadow:none; box-shadow:none: -moz-box-shadow:none; border-radius:0; ">
+                        <div class="card-body">
+                            <center> <img src="<?php echo base_url() ?>assets/images/avatar-bruno.jpg" class="img-circle" width="150">
+                                <h4 class="m-t-10" style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Bruno Carvalho</h4>
+                                <h6 class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Analista/Programador </h6>
+                            </center>
                         </div>
-                        <p>Com buscas intuitivas, a Seu Canto lhe oferta as melhores opções sem sair de casa, marca visitas aos locais
-                        que você mais gostou e te ajuda na escolha do seu imóvel perfeito!</p>
-                </div> 
-            </div>
-        </div>
-    </section>
-    <!-- GALERIA DE CATEGORIAS -->
-
-
-    <!-- GALERIA DE CATEGORIAS -->
-    <section class="categoriesCards" style="margin: 4em 0;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-title text-center">
-                    <h1 style="margin-bottom:1em"> Nós oferecemos a você o nosso melhor </h1>      
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xlg-3 col-md-3 col-sm-6">
+                    <div class="card" style="border:none; -webkit-box-shadow:none; box-shadow:none: -moz-box-shadow:none; border-radius:0; ">
+                        <div class="card-body">
+                            <center> <img src="<?php echo base_url() ?>assets/images/avatar-juliano-bode.png" class="img-circle" width="150">
+                                <h4 class="m-t-10" style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Juliano Bode</h4>
+                                <h6 class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Diretor de Arte </h6>
+                            </center>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row"> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">Nós temos as melhores opções.</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/project_2.png';?>" alt="">
-                        </div>
-                        <p>Na Seu Canto é possivel organizar suas buscas de imóveis por aréas, ruas e localização de sua preferência.
-                        Assim fica super simples encontrar a melhor opção para você.</p>
-                </div> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">A Seu Canto é comunicação!</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/discussion.png';?>" alt="">
-                        </div>
-                        <p>Aqui na plataforma Seu Canto temos a melhor equipe de relacionamentos do mercado! Iremos te ajudar
-                        na busca pela melhores ofertas de imóveis, com inteligência e comunicação.</p>
-                </div> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">Economize tempo.</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/deadline.png';?>" alt="">
-                        </div>
-                        <p>Com buscas intuitivas, a Seu Canto lhe oferta as melhores opções sem sair de casa, marca visitas aos locais
-                        que você mais gostou e te ajuda na escolha do seu imóvel perfeito!</p>
-                </div> 
-            </div>
         </div>
     </section>
-    <!-- GALERIA DE CATEGORIAS -->
 
-
-    <!-- GALERIA DE CATEGORIAS -->
-    <section class="categoriesCards" style="margin: 4em 0;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-title text-center">
-                    <h1 style="margin-bottom:1em"> Nós oferecemos a você o nosso melhor </h1>   
-                    </div>
-                </div>
-            </div>
-            <div class="row"> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">Nós temos as melhores opções.</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/project_2.png';?>" alt="">
-                        </div>
-                        <p>Na Seu Canto é possivel organizar suas buscas de imóveis por aréas, ruas e localização de sua preferência.
-                        Assim fica super simples encontrar a melhor opção para você.</p>
-                </div> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">A Seu Canto é comunicação!</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/discussion.png';?>" alt="">
-                        </div>
-                        <p>Aqui na plataforma Seu Canto temos a melhor equipe de relacionamentos do mercado! Iremos te ajudar
-                        na busca pela melhores ofertas de imóveis, com inteligência e comunicação.</p>
-                </div> 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <!-- <span class="icon-category-card fa fa-calendar"></span>  -->
-                        <h4 class="sub-category-card text-center">Economize tempo.</h4> 
-                        <div class="category-card" style="text-align:center; background: #fff;"> 
-                            <img src="<?php echo base_url().'assets/images/deadline.png';?>" alt="">
-                        </div>
-                        <p>Com buscas intuitivas, a Seu Canto lhe oferta as melhores opções sem sair de casa, marca visitas aos locais
-                        que você mais gostou e te ajuda na escolha do seu imóvel perfeito!</p>
-                </div> 
-            </div>
-        </div>
-    </section>
-    <!-- GALERIA DE CATEGORIAS -->
-
-    <!-- Row -->
-    <!-- <div class="row">
-        <div class="col-lg-12">
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Browser Stats</h4>
-                    <table class="table browser m-t-30 no-border">
-                        <tbody>
-                            <tr>
-                                <td style="width:40px"><img src="<?php echo base_url() ?>assets/images/browser/chrome-logo.png" alt=logo /></td>
-                                <td>Google Chrome</td>
-                                <td class="text-right"><span class="label label-light-info">23%</span></td>
-                            </tr>
-                            <tr>
-                                <td><img src="<?php echo base_url() ?>assets/images/browser/firefox-logo.png" alt=logo /></td>
-                                <td>Mozila Firefox</td>
-                                <td class="text-right"><span class="label label-light-success">15%</span></td>
-                            </tr>
-                            <tr>
-                                <td><img src="<?php echo base_url() ?>assets/images/browser/safari-logo.png" alt=logo /></td>
-                                <td>Apple Safari</td>
-                                <td class="text-right"><span class="label label-light-primary">07%</span></td>
-                            </tr>
-                            <tr>
-                                <td><img src="<?php echo base_url() ?>assets/images/browser/internet-logo.png" alt=logo /></td>
-                                <td>Internet Explorer</td>
-                                <td class="text-right"><span class="label label-light-warning">09%</span></td>
-                            </tr>
-                            <tr>
-                                <td><img src="<?php echo base_url() ?>assets/images/browser/opera-logo.png" alt=logo /></td>
-                                <td>Opera mini</td>
-                                <td class="text-right"><span class="label label-light-danger">23%</span></td>
-                            </tr>
-                            <tr>
-                                <td><img src="<?php echo base_url() ?>assets/images/browser/internet-logo.png" alt=logo /></td>
-                                <td>Microsoft edge</td>
-                                <td class="text-right"><span class="label label-light-megna">09%</span></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    
-    <!-- ============================================================== -->
-    <!-- End PAge Content -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- Right sidebar -->
-    <!-- ============================================================== -->
-    <!-- .right-sidebar -->
-    <!-- ============================================================== -->
-    <!-- End Right sidebar -->
-    <!-- ============================================================== -->
 </div>
-<!-- ============================================================== -->
-<!-- End Container fluid  -->
-<!-- ============================================================== -->
+<style type="text/css">
+    .section-title h1 {
+        margin-top: 0px;
+    }
+    .section-title h1::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 120px;
+        height: 1px;
+        background: #ddd;
+        bottom: 1px;
+        left: calc(50% - 60px);
+    }
+    .section-title h1::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: #35A88E;
+        bottom: 0;
+        left: calc(50% - 20px);
+    }
+
+    .section-title-product h1 {
+        margin-top: 0px;
+    }
+    .section-title-product h1::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 120px;
+        height: 1px;
+        background: #ddd;
+        bottom: 1px;
+        left: calc(50% - 60px);
+    }
+    .section-title-product h1::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: #FFF;
+        bottom: 0;
+        left: calc(50% - 20px);
+    }
+    #section-colab {
+        width:100%;
+        margin: 4em 0; 
+        padding: 6em; 
+        background: linear-gradient(rgba(53, 168, 142, 0.88), rgba(53, 168, 142, 0.88)), url('assets/images/banner1.jpg') fixed no-repeat; 
+        background-size: cover; 
+    }
+</style>
