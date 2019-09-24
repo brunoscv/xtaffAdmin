@@ -8,14 +8,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url() ?>assets/images/idea.png">
-    <title>XTAFF - Laboratório Artístico</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url() ?>assets/images/favicon.png">
+    <title>XTAFF - Admin</title>
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url() ?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- chartist CSS -->
     <link href="<?php echo base_url() ?>assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
     <link href="<?php echo base_url() ?>assets/plugins/chartist-js/dist/chartist-init.css" rel="stylesheet">
-    <link href="<?php echo base_url() ?>assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/plugins/chartist-plugin-tooltip-master/dist/
+    chartist-plugin-tooltip.css" rel="stylesheet">
     <link href="<?php echo base_url() ?>assets/plugins/css-chart/css-chart.css" rel="stylesheet">
     <!--This page css - Morris CSS -->
     <link href="<?php echo base_url() ?>assets/plugins/morrisjs/morris.css" rel="stylesheet">
@@ -25,6 +26,8 @@
     <link href="<?php echo base_url() ?>assets/plugins/toast-master/css/jquery.toast.css" rel="stylesheet">
     <!-- Vector CSS -->
     <link href="<?php echo base_url() ?>/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+
+
 
     <!--Form css plugins -->
     <link href="<?php echo base_url() ?>assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css" />
@@ -36,6 +39,7 @@
     <link href="<?php echo base_url() ?>assets/plugins/multiselect/css/multi-select.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo base_url() ?>assets/plugins/html5-editor/bootstrap-wysihtml5.css" rel="stylesheet" />
     <!--Form css plugins end -->
+
 
     <!-- Vector CSS -->
     <link href="<?php echo base_url() ?>assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
@@ -60,9 +64,6 @@
     <link href="<?php echo base_url() ?>assets/plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
     <link href="<?php echo base_url() ?>assets/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
-    <!-- Lato Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
 
     <!-- Custom CSS -->
     <link href="<?php echo base_url() ?>assets/css/style.css" rel="stylesheet">
@@ -83,9 +84,11 @@
     </div>
     
     <!-- Main wrapper - style you can find in pages.scss -->
+    
     <div id="main-wrapper">
-        <div class="topbar">
-            <nav class="navbar top-navbar navbar-expand-md navbar-light"> 
+        <!-- Topbar header - style you can find in pages.scss -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- Logo -->
                 <div class="navbar-header">
                     <a class="navbar-brand" href="<?php echo base_url('home') ?>">
@@ -93,214 +96,159 @@
                         <b>
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" alt="homepage" class="dark-logo" style="width:6em;"/>
+                            <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" class="dark-logo" style="width:4em;"/>
                             <!-- Light Logo icon -->
-                            <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" alt="homepage" class="light-logo" style="width:6em;" />
+                            <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" class="light-logo" style="width:8em;" />
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span>
-                         <!-- dark Logo text -->
-                         <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" alt="homepage" class="dark-logo" style="width:6em;" />
-                         <!-- Light Logo text -->    
-                         <!-- <img src="<?php echo base_url() ?>assets/images/logo-light-text.png" class="light-logo" alt="homepage" />-->
+                        <!-- dark Logo text -->
+                        <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" class="dark-logo" style="width:10em;" />
+                        <!-- Light Logo text -->    
+                        <!-- <img src="<?php echo base_url() ?>assets/images/logo-light-text.png" class="light-logo" alt="homepage" />-->
                         </span> 
                     </a> 
                 </div>
                 <!-- End Logo -->
-                
-                <div class="navbar-collapse navbar-right right">  
-                    <!-- toggle and nav items -->
-                    <ul class="navbar-nav" style="margin: 0 auto;">
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-home"></i> QUEM SOMOS</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-bullhorn"></i> PRODUTOS</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-rocket"></i> CURRÍCULOS</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-user"></i> CLIENTES</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-archive"></i> ORÇAMENTOS</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-users"></i> EQUIPE</a></li>
+                <div class="navbar-collapse">
+                    <!-- toggle and nav items -->  
+                    <ul class="navbar-nav mr-auto mt-md-0">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="mdi mdi-menu"></i></a> </li>
+                        <li class="nav-item"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                    </ul>
+                    <ul class="navbar-nav my-lg-0">     
+                        <!-- Profile -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="<?php echo base_url() ?>assets/images/users/1.jpg" alt="user" class="profile-pic" /></a>
+                            <div class="dropdown-menu dropdown-menu-right scale-up">
+                                <ul class="dropdown-user">
+                                    <li>
+                                        <div class="dw-user-box">
+                                            <div class="u-img"><img src="<?php echo base_url() ?>assets/images/users/1.jpg" alt="user"></div>
+                                            <div class="u-text">
+                                                <h4><?php echo $this->session->userdata('name'); ?></h4>
+                                                <p class="text-muted"><?php echo $this->session->userdata('email'); ?></p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
+                                        </div>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#"><i class="ti-user"></i> Meu Perfil</a></li>
+                                    <!-- <li><a href="#"><i class="ti-wallet"></i> My Balance</a></li>
+                                    <li><a href="#"><i class="ti-email"></i> Inbox</a></li> -->
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#"><i class="ti-settings"></i> Configurações</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="<?php echo base_url('auth/logout') ?>"><i class="fa fa-power-off"></i> Sair</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- Language -->     
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="flag-icon flag-icon-us"></i></a>
+                            <div class="dropdown-menu dropdown-menu-right scale-up"> <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-in"></i> India</a> <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-fr"></i> French</a> <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-cn"></i> China</a> <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-de"></i> Dutch</a> </div>
+                        </li> -->
                     </ul>
                 </div>
             </nav>
-        </div>
-        
-        <section>
-            <!-- The slideshow -->
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="<?php echo base_url().'assets/images/banners/banner-site-provisorio-web.jpg';?>" style="width:100%;">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="<?php echo base_url().'assets/images/banners/banner-marketing-digital.png';?>"  style="width:100%;">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="<?php echo base_url().'assets/images/banners/banner-eventos.png';?>" style="width:100%;" >
-                    </div>
-                    <div class="carousel-item">
-                        <img src="<?php echo base_url().'assets/images/banners/banner-branding.png';?>" style="width:100%;" >
-                    </div>
-                    <div class="carousel-item">
-                        <img src="<?php echo base_url().'assets/images/banners/banner-audiovisual.png';?>" style="width:100%;" >
-                    </div>
-                    <div class="carousel-item">
-                        <img src="<?php echo base_url().'assets/images/banners/banner-localizacao.png';?>" style="width:100%;" >
-                    </div>
-                </div>
-                <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-            </div>
-            <div class="overlay" style="background: rgba(0,0,0,0.4);"></div>
-            <!-- The slideshow -->
-        </section>
-
-        <style type="text/css">
-            #inputBuscarImovel {
-                border-radius: 0px;
-                height: 3em;
-                padding: 1.5em;
-            }
-            #btnBuscarImovel {
-                font-size: 16px;
-                font-weight: 700;
-                padding:0.5em 2em;
-            }
-            .topbar {
-                background:#35A88E;
-            }
-            header.home {
-                background: url('assets/images/banner1.jpg') center center no-repeat;
-                background-size: cover;
-                min-height: 640px;
-                position: relative;
-                color: #fff;
-            }
-
-            header.home .container-fluid {
-                height: 640px;
-                position: relative;
-                z-index: 20;
-            }
-            .vcenter {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .container-fluid {
-                padding-right: 15px;
-                padding-left: 15px;
-                margin-right: auto;
-                margin-left: auto;
-            }
-            header.home {
-                color: #fff;
-            }
-            header.home h1 {
-                font-size: 55px;
-                font-weight: 500;
-                color: #fff;
-            }
-            header.home h2 {
-                font-size: 22px;
-                font-weight: 300;
-                margin-bottom: 40px;
-                color: #fff;
-            }
-            
-            /* .btn {
-                display: inline-block;
-                padding: 6px 12px;
-                margin-bottom: 0;
-                font-size: 15px;
-                font-weight: 700;
-                line-height: 1.42857143;
-                text-align: center;
-                white-space: nowrap;
-                vertical-align: middle;
-                -ms-touch-action: manipulation;
-                touch-action: manipulation;
-                cursor: pointer;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                -ms-user-select: none;
-                user-select: none;
-                background-image: none;
-                border: 1px solid transparent;
-                border-radius: 0;
-                text-transform: uppercase;
-                -o-transition: all .5s;
-                transition: all .5s;
-            } */
-            header.home .overlay {
-                width: 100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-                background: rgba(0,0,0,.3);
-                position: absolute;
-                z-index: 19;
-                object-fit: cover;
-                object-position: center center;
-            }
-            footer {
-                padding: 50px 0;
-                background-color: #F58023;
-                color: #fff;
-            }
-            footer.copyright {
-                padding: 0;
-                color: #fff;
-                background-color: #35A88E;
-                line-height: 60px;
-            }
-            .btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before, .btn-toolbar::after, 
-            .btn-toolbar::before, .clearfix::after, .clearfix::before, .container-fluid::after, .container-fluid::before, 
-            .container::after, .container::before, .dl-horizontal dd::after, .dl-horizontal dd::before, .form-horizontal 
-            .form-group::after, .form-horizontal .form-group::before, .modal-footer::after, .modal-footer::before, 
-            .modal-header::after, .modal-header::before, .nav::after, .nav::before, .navbar-collapse::after, 
-            .navbar-collapse::before, .navbar-header::after, .navbar-header::before, .navbar::after, .navbar::before, 
-            .pager::after, .pager::before, .panel-body::after, .panel-body::before, .row::after, .row::before {
-                display: table;
-                content: " ";
-            }
-            .topmenu-link {
-                color: #fff;
-                font-family: 'Lato', serif; 
-                font-weight:700
-            }
-           
-        </style>
+        </header>
         <!-- End Topbar header -->
+        
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="nav-small-cap"></li>
+                        <li>
+                            <a class="waves-effect waves-dark" href="<?php echo base_url('dashboard') ?>" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard</span></a>
+                        </li>
+                        <li>
+                            <a class="has-arrow waves-effect waves-dark" href="<?php echo base_url('user/all_user_list') ?>" aria-expanded="false"><i class="fa fa-user"></i><span class="hide-menu">Usuários</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <?php if ($this->session->userdata('role') == 'admin'): ?>
+                                    <li><a href="<?php echo base_url('user') ?>"><i class="fa fa-angle-right"></i> Adicionar Usuário </a></li>
+                                    <li><a href="<?php echo base_url('user/power') ?>"><i class="fa fa-angle-right"></i> Adicionar Permissão</a></li>
+                                <?php else: ?>
+                                    <?php if(check_power(1)):?>
+                                        <li><a href="<?php echo base_url('user') ?>"><i class="fa fa-angle-right"></i> Adicionar Usuário </a></li>
+                                    <?php endif; ?>
+                                <?php endif ?>
+
+                                <li><a href="<?php echo base_url('user/all_user_list') ?>"><i class="fa fa-angle-right"></i> Todos Usuários</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="has-arrow waves-effect waves-dark" href="<?php echo base_url('categories/') ?>" aria-expanded="false"><i class="fa fa-gears"></i><span class="hide-menu">Categorias</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <?php if ($this->session->userdata('role') == 'admin'): ?>
+                                    <li><a href="<?php echo base_url('categories') ?>"><i class="fa fa-angle-right"></i> Nova Categoria </a></li>
+                                <?php else: ?>
+                                    <?php if(check_power(1)):?>
+                                        <li><a href="<?php echo base_url('categories') ?>"><i class="fa fa-angle-right"></i> Nova Categoria </a></li>
+                                    <?php endif; ?>
+                                <?php endif ?>
+
+                                <li><a href="<?php echo base_url('categories/') ?>"><i class="fa fa-angle-right"></i> Todas Categorias</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-devider"></li>
+                        <li class="nav-small-cap">EXTRA COMPONENTS</li> -->
+
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+            <!-- Bottom points-->
+            <div class="sidebar-footer">
+                <!-- item-->
+                <a href="#" class="link" data-toggle="tooltip" title="Settings"><i class="ti-settings"></i></a>
+                <!-- item-->
+                <a href="#" class="link" data-toggle="tooltip" title="Email"><i class="mdi mdi-gmail"></i></a>
+                <!-- item-->
+                <a href="<?php echo base_url('auth/logout') ?>" class="link" data-toggle="tooltip" title="Logout"><i class="mdi mdi-power"></i></a>
+            </div>
+            <!-- End Bottom points-->
+        </aside>
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
         
         <!-- Page wrapper  -->
         <div class="page-wrapper">
         <!-- ==========================Dynamicaly Show Main Page Content============================ -->
             <?php echo $main_content; ?>
         <!-- ==========================Dynamicaly Show Main Page Content============================ -->
+
+            <!-- footer -->            
+            <footer class="footer">
+                <span style="text-align: center"><?php echo "© XTAFF - Laboratório Artístico " . date("Y") . ". Todos os direitos Reservados.";?> </span>
+            </footer>
+            <!-- End footer -->
         </div>
-        <!-- footer -->            
-        <footer class="container-fluid copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <p  style="font-family: 'Lato', sans-serif; color:#fff; font-weight:700; text-align: center"><?php echo "© XTAFF - Laboratório Artístico " . date("Y") . ". Todos os direitos Reservados.";?> </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
         <!-- End Page wrapper  -->
     </div>
     <!-- End Wrapper -->
+
+    <style type="text/css">
+        .topbar {
+            background-color: #35A88E;
+        }
+        .footer {
+            border-left: 1px solid rgba(120, 130, 140, 0.13);
+        }
+        .sidebar-nav > ul > li.active > a, .sidebar-nav > ul > li.active:hover > a {
+            color: #ffffff !important;
+            background: #35A88E !important;
+        }
+    </style>
 
     <!-- All Jquery -->    
     <script src="<?php echo base_url() ?>assets/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
     <script src="<?php echo base_url() ?>assets/plugins/bootstrap/js/popper.min.js"></script>
-    <script src="<?php echo base_url() ?>assets/plugins/bootstrap/js/bootstrap.js"></script>
+    <script src="<?php echo base_url() ?>assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
     <script src="<?php echo base_url() ?>assets/js/jquery.slimscroll.js"></script>
     <!--Wave Effects -->

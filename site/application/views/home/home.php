@@ -138,6 +138,16 @@
             <div class="row"> 
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="category-card" style="text-align:center; background: #fff; margin: 0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/pernambuco-dream-bar.png';?>" style="width:80%">
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin: 0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/econtabil.png';?>" style="width:80%">
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin: 0.8em;"> 
                         <img src="<?php echo base_url().'assets/images/clientes/blr.png';?>" style="width:80%">
                     </div>
                 </div> 
@@ -146,6 +156,13 @@
                         <img src="<?php echo base_url().'assets/images/clientes/locomotiva.png';?>" style="width:80%">
                     </div>
                 </div> 
+            </div>
+            <div class="row"> 
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="category-card" style="text-align:center; background: #fff; margin: 0.8em;"> 
+                        <img src="<?php echo base_url().'assets/images/clientes/minha-lavanderia.png';?>" style="width:80%">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -189,64 +206,34 @@
                 <!-- Column -->
                 <div class="col-lg-4">
                     <div class="card">
-                        <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/sacrilegio.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Sacrilégio</h3>
-                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Após sua ceia de Natal. Depois do Divino, vem o Sacrilégio.</p>
-                            <div class="row text-center">
-                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
-                            </div>
+                        <div class="card-header">
+                            <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/labels-loco-rock.png" alt="Card image cap">
+                        </div>
+                        <div class="card-body" style="background-color: #35A88E;">
+                            <h3 style="font-family: 'Roboto Slab', serif; color:#fff; font-weight:700; text-align: center">Loco Rock Fest</h3>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center; color:#fff;"> Equipe XTAFF em parceria com o Locomotiva Blues Rock.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card">
-                        <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/metalsolidario.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Metal Solidário</h3>
-                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center">Metal / Rock Autoral, Solidariedade e Entretenimento. </p>
-                            <div class="row text-center">
-                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
-                            </div>
+                        <div class="card-header">
+                            <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/labels-metal-solidario.png" alt="Card image cap">
+                        </div>
+                        <div class="card-body" style="background-color: #35A88E;">
+                            <h3 style="font-family: 'Roboto Slab', serif; color:#fff; font-weight:700; text-align: center">Metal Solidário</h3>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center; color:#fff;">Metal / Rock Autoral, Solidariedade e Entretenimento. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card">
-                        <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/batatinha.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Batatinha do Louah</h3>
-                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center">Melhor bloco de Rua da Zona Leste de Teresina. Cerca de 8 mil pessoas em 2019.</p>
-                            <div class="row text-center">
-                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
-                            </div>
+                        <div class="card-header">
+                            <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/labels-batatinha.png" alt="Card image cap">
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- Column -->
-                <div class="col-lg-4">
-                    <div class="card">
-                        <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/houseloween.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Houseloween</h3>
-                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Tradicional Halloween da Casa Abandonada. </p>
-                            <div class="row text-center">
-                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                        <img class="card-img-top img-responsive" style="height:11em !important;" src="<?php echo base_url() ?>assets/images/labels/sacrilegio.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Loco Rock Fest</h3>
-                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Locomotiva + XTAFF + Rock’n’Roll = LOCOROCKFEST </p>
-                            <div class="row text-center">
-                                <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
-                            </div>
+                        <div class="card-body" style="background-color: #35A88E;">
+                            <h3 style="font-family: 'Roboto Slab', serif; color:#fff; font-weight:700; text-align: center">Batatinha do Louah</h3>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center; color:#fff;">Melhor bloco de Rua da Zona Leste de Teresina. Cerca de 8 mil pessoas em 2019.</p>
                         </div>
                     </div>
                 </div>
@@ -361,7 +348,7 @@
                         <div class="card-body">
                             <center> <img src="<?php echo base_url() ?>assets/images/avatar-caio-galvao.png" class="img-circle" width="150">
                                 <h4 class="m-t-10" style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Caio Galvão</h4>
-                                <h6 class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Eventos </h6>
+                                <h6 class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Eventos, Marketing Digital </h6>
                             </center>
                         </div>
                     </div>
@@ -371,7 +358,7 @@
                         <div class="card-body">
                             <center> <img src="<?php echo base_url() ?>assets/images/avatar-ednardo-leao.png" class="img-circle" width="150">
                                 <h4 class="m-t-10" style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Ednardo Leão</h4>
-                                <h6 class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Marketing Digital </h6>
+                                <h6 class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> CEO , Marketing Digital </h6>
                             </center>
                         </div>
                     </div>
@@ -381,7 +368,7 @@
                         <div class="card-body">
                             <center> <img src="<?php echo base_url() ?>assets/images/avatar-bruno.jpg" class="img-circle" width="150">
                                 <h4 class="m-t-10" style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Bruno Carvalho</h4>
-                                <h6 class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Analista/Programador </h6>
+                                <h6 class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Programação e Sistemas </h6>
                             </center>
                         </div>
                     </div>
@@ -391,7 +378,7 @@
                         <div class="card-body">
                             <center> <img src="<?php echo base_url() ?>assets/images/avatar-juliano-bode.png" class="img-circle" width="150">
                                 <h4 class="m-t-10" style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Juliano Bode</h4>
-                                <h6 class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Diretor de Arte </h6>
+                                <h6 class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Direção de Arte </h6>
                             </center>
                         </div>
                     </div>

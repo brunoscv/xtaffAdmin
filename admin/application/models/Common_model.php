@@ -38,7 +38,7 @@ class Common_model extends CI_Model {
     function select($table){
         $this->db->select();
         $this->db->from($table);
-        $this->db->order_by('id','ASC');
+        $this->db->order_by('id','DESC');
         $query = $this->db->get();
         $query = $query->result_array();  
         return $query;

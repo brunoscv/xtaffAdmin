@@ -371,7 +371,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Sample Form with the Icons</h4>
                     <h6 class="card-subtitle">made with bootstrap elements</h6>
-                    <form class="form p-t-20">
+                    <form class="form p-t-20" action="" method="post">
                         <div class="form-group">
                             <label for="exampleInputuname">User Name</label>
                             <div class="input-group">

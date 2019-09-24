@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from wrappixel.com/demos/admin-templates/material-pro/material/pages-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2018 19:06:51 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -54,7 +51,7 @@
 
                 <form class="form-horizontal form-material" id="login-form" action="<?php echo base_url('auth/log'); ?>" method="post">
                     <div class="text-center">
-                        <a class="navbar-brand-login" href="/"><img alt="Pet Anjo" src="<?php echo base_url() ?>assets/images/logo-transparente.png"></a>
+                        <a class="navbar-brand-login" href="/"><img alt="Pet Anjo" src="<?php echo base_url() ?>assets/images/logo-transparente.png" style="width:4em;"></a>
                         <h3 class="padding-bottom border-login"></h3>
                     </div>
                     <div class="form-group ">
@@ -65,7 +62,7 @@
                         <div class="col-xs-12">
                             <input class="form-control" type="password" name="password" required="" placeholder="Password"> 
                         </div>
-                    </div><br>
+                    </div>
                     <div class="form-group">
                         <div class="col-md-12">
                             <a href="<?php echo base_url('pages/recover') ?>" id="to-recover" class="text-dark pull-right"><!-- <i class="fa fa-lock m-r-5"></i> Forgot password? --></a>

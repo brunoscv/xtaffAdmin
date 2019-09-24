@@ -6,6 +6,7 @@ class Dashboard extends CI_Controller {
         parent::__construct();
         check_login_user();
         $this->load->model('common_model');
+        $this->load->model('dashboard_model');
     }
 
     
@@ -13,9 +14,9 @@ class Dashboard extends CI_Controller {
         $data = array();
         $data['page_title'] = 'Dashboard';
         $data['count'] = $this->common_model->get_user_total();
-        $data['users'] = $this->common_model->get_all_user();
-        $data['main_content'] = $this->load->view('admin/home', $data, TRUE);
-        $this->load->view('admin/index', $data);
+        $data['resumees'] = $this->common_model->select("resumee");
+        $data['main_content'] = $this->load->view('dashboard/home', $data, TRUE);
+        $this->load->view('dashboard/index', $data);
     }
 
     public function backup($fileName='db_backup.zip') {

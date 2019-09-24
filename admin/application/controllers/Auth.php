@@ -10,7 +10,7 @@ class Auth extends CI_Controller {
     public function index(){
         $data = array();
         $data['page'] = 'Auth';
-        $this->load->view('admin/login', $data);
+        $this->load->view('dashboard/login', $data);
     }
 
     public function log(){
@@ -45,7 +45,7 @@ class Auth extends CI_Controller {
         $this->session->sess_destroy();
         $data = array();
         $data['page'] = 'logout';
-        $this->load->view('admin/login', $data);
+        $this->load->view('dashboard/login', $data);
     }
 
 }
