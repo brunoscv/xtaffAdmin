@@ -70,7 +70,26 @@
     <link href="<?php echo base_url() ?>assets/css/colors/blue.css" id="theme" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    
+    <style>
+    .topmenu-link {
+        color: #fff;
+        font-family: 'Lato', serif;
+        font-weight: 700;
+    }
+    .navbar::before {
+        content: " ";
+        display: none !important;
+    }
+    .navbar::after {
+        content: " ";
+        display: none !important;
+    }
+
+    .navbar-toggler {
+       /* border: 1px solid #fff; */
+       color: #fff;
+    }
+    </style>
 </head>
 
 <body class="fix-header fix-sidebar card-no-border">
@@ -83,46 +102,41 @@
     </div>
     
     <!-- Main wrapper - style you can find in pages.scss -->
-    <div id="main-wrapper">
-        <div class="topbar">
-            <nav class="navbar top-navbar navbar-expand-md navbar-light"> 
-                <!-- Logo -->
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="<?php echo base_url('home') ?>">
-                        <!-- Logo icon -->
-                        <b>
-                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
-                            <!-- Dark Logo icon -->
-                            <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" alt="homepage" class="dark-logo" style="width:6em;"/>
-                            <!-- Light Logo icon -->
-                            <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" alt="homepage" class="light-logo" style="width:6em;" />
-                        </b>
-                        <!--End Logo icon -->
-                        <!-- Logo text -->
-                        <span>
-                         <!-- dark Logo text -->
-                         <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" alt="homepage" class="dark-logo" style="width:6em;" />
-                         <!-- Light Logo text -->    
-                         <!-- <img src="<?php echo base_url() ?>assets/images/logo-light-text.png" class="light-logo" alt="homepage" />-->
-                        </span> 
-                    </a> 
-                </div>
-                <!-- End Logo -->
-                
-                <div class="navbar-collapse navbar-right right">  
-                    <!-- toggle and nav items -->
-                    <ul class="navbar-nav" style="margin: 0 auto;">
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-home"></i> QUEM SOMOS</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-bullhorn"></i> PRODUTOS</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-rocket"></i> CURRÍCULOS</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-user"></i> CLIENTES</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-archive"></i> ORÇAMENTOS</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-users"></i> EQUIPE</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+    <div>
+        <nav class="navbar navbar-expand-lg" style="background:#35A88E;-webkit-box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5); box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);">
+            <a class="navbar-brand" href="#">
+                <img src="<?php echo base_url() ?>assets/images/logo-transparente.png" alt="homepage" class="dark-logo" style="width:5em;"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto" style="margin:0 auto;">
+                    <li class="nav-item mr-2 active">
+                        <a class="nav-link topmenu-link" href="#" id="menu1"> <i class="fa fa-home"></i> QUEM SOMOS<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link topmenu-link" href="#" id="menu2"> <i class="fa fa-bullhorn"></i> PRODUTOS</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link topmenu-link" href="#" id="menu4"><i class="fa fa-rocket"></i> CURRÍCULOS</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link topmenu-link" href="#" id="menu3"><i class="fa fa-user"></i> CLIENTES</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link topmenu-link" href="#" id="menu5"><i class="fa fa-archive"></i> ORÇAMENTOS</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link topmenu-link" href="#" id="menu6"><i class="fa fa-users"></i> EQUIPE</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
         
+    <div id="main-wrapper">
         <section>
             <!-- The slideshow -->
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -367,6 +381,53 @@
 
     <!-- Invoice print JS -->
     <script src="<?php echo base_url() ?>assets/js/jquery.PrintArea.js" type="text/JavaScript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("body").on('click','#menu1',function(event) {
+                $('html,body').animate({
+                    scrollTop: $("#quem-somos").offset().top
+                },
+                    'slow'
+                );
+            });
+            $("body").on('click','#menu2',function(event) {
+                $('html,body').animate({
+                    scrollTop: $("#produtos").offset().top
+                },
+                    'slow'
+                );
+            });
+            $("body").on('click','#menu4',function(event) {
+                $('html,body').animate({
+                    scrollTop: $("#section-colab").offset().top
+                },
+                    'slow'
+                );
+            });
+            $("body").on('click','#menu3',function(event) {
+                $('html,body').animate({
+                    scrollTop: $("#clientes").offset().top
+                },
+                    'slow'
+                );
+            });
+            $("body").on('click','#menu5',function(event) {
+                $('html,body').animate({
+                    scrollTop: $("#orcamentos").offset().top
+                },
+                    'slow'
+                );
+            });
+            $("body").on('click','#menu6',function(event) {
+                $('html,body').animate({
+                    scrollTop: $("#equipe").offset().top
+                },
+                    'slow'
+                );
+            });
+        });
+    </script>
+    
     <script>
     $(document).ready(function() {
         $("#print").click(function() {

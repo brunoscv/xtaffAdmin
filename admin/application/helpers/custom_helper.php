@@ -58,4 +58,47 @@
 	    }
 	}
 
+	function get_active_class() {
+		$controllerClassUse = & load_class('Router');
+		return ucwords($controllerClassUse->fetch_class());
+	}
+	 
+	function get_active_method() {
+		$RTR = & load_class('Router');
+		return $RTR->fetch_method();
+	}
+	 
+	function get_paginate_url() {
+		parse_str($_SERVER['QUERY_STRING'], $arr);
+		array_unique($arr);
+		unset($arr['per_page']);
+	
+		return  '/?' . http_build_query($arr);
+	}
+	 
+	function redirect_paginacao($url) {
+		$CI = &get_instance();
+	
+		if( !preg_match('/\/$/', $url) ) $url .= '/';
+		$parsedUrl = parse_url($url);
+		
+		$qStringPagination = ( !preg_match('/^\?$/', $CI->session->userdata('qStringPagination')) ) ? $CI->session->userdata('qStringPagination') : $CI->session->userdata('qStringPagination');
+		if( !empty($parsedUrl['query']) ){
+			parse_str($CI->session->userdata('qStringPagination'), $queryArray);
+			parse_str($parsedUrl['query'], $tempArray);
+			foreach($tempArray as $key => $value){
+				$queryArray[$key] = $value;
+			}
+			$qStringPagination = "?" . http_build_query($queryArray); 
+		}
+		
+		redirect($url . $CI->session->userdata('qStringPagination'));
+	}
+
+	function arShow($array){
+		echo "<pre>";
+		print_r($array);
+		echo "</pre>";
+	}
+
   

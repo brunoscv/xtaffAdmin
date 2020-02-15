@@ -112,12 +112,12 @@
                 <div class="navbar-collapse navbar-right right">  
                     <!-- toggle and nav items -->
                     <ul class="navbar-nav" style="margin: 0 auto;">
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-home"></i> QUEM SOMOS</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-bullhorn"></i> PRODUTOS</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-rocket"></i> CURRÍCULOS</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-user"></i> CLIENTES</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-archive"></i> ORÇAMENTOS</a></li>
-                        <li class="nav-item mr-2"><a class="btn topmenu-link" href=""><i class="fa fa-users"></i> EQUIPE</a></li>
+                        <li class="nav-item mr-2"><a class="btn topmenu-link" href="<?php echo site_url();?>"><i class="fa fa-home"></i> QUEM SOMOS</a></li>
+                        <li class="nav-item mr-2"><a class="btn topmenu-link" href="<?php echo site_url();?>"><i class="fa fa-bullhorn"></i> PRODUTOS</a></li>
+                        <li class="nav-item mr-2"><a class="btn topmenu-link" href="<?php echo site_url();?>"><i class="fa fa-rocket"></i> CURRÍCULOS</a></li>
+                        <li class="nav-item mr-2"><a class="btn topmenu-link" href="<?php echo site_url();?>"><i class="fa fa-user"></i> CLIENTES</a></li>
+                        <li class="nav-item mr-2"><a class="btn topmenu-link" href="<?php echo site_url();?>"><i class="fa fa-archive"></i> ORÇAMENTOS</a></li>
+                        <li class="nav-item mr-2"><a class="btn topmenu-link" href="<?php echo site_url();?>"><i class="fa fa-users"></i> EQUIPE</a></li>
                     </ul>
                 </div>
             </nav>

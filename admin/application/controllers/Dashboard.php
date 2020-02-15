@@ -14,9 +14,26 @@ class Dashboard extends CI_Controller {
         $data = array();
         $data['page_title'] = 'Dashboard';
         $data['count'] = $this->common_model->get_user_total();
-        $data['resumees'] = $this->common_model->select("resumee");
+        $data['resumees'] = $this->dashboard_model->get_all_resumee();
         $data['main_content'] = $this->load->view('dashboard/home', $data, TRUE);
         $this->load->view('dashboard/index', $data);
+    }
+
+    public function ver() {
+        $id = $this->uri->segment(3);
+
+        $data['resumee'] = $this->common_model->select_option($id, "resumee");
+
+		if(!$data['resumee']){
+			$data["msg_error"] = $this->session->set_flashdata("msg_error", "Registro não encontrado!");
+			redirect('dashboard/index', $data["msg_error"]);
+		} else {
+            $data = array();
+            $data['page_title'] = 'Ver Curriculo';
+            $data['resumees'] = $this->common_model->select_option($id, "resumee");
+            $data['main_content'] = $this->load->view('dashboard/ver', $data, TRUE);
+            $this->load->view('dashboard/index', $data);
+        }	
     }
 
     public function backup($fileName='db_backup.zip') {

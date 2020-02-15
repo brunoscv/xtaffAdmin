@@ -1,6 +1,6 @@
 <div class="container-fluid">  
   
-    <section class="categoriesCards" style="margin: 4em 0;">
+    <section class="categoriesCards" style="margin: 4em 0;" id="quem-somos">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -28,7 +28,7 @@
         </div>
     </section>
 
-    <section class="categoriesCards">
+    <section class="categoriesCards" id="produtos">
         <div class="row" style="padding: 2em 0; background-color: #35a88e; color: #fff !important;">
             <div class="container">
                 <div class="row">
@@ -82,7 +82,7 @@
         </div>
     </section>
 
-    <section class="categoriesCards" style="margin: 4em 0;">
+    <section class="categoriesCards" style="margin: 4em 0;" id="clientes">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -186,14 +186,14 @@
                 </div>
                 <div class="row"> 
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                        <a class="btn mt-4" href="#" style="background-color: #fff; color: #35A88E; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Preencher Currículo</a>
+                        <a class="btn mt-4" href="<?php echo site_url().'resumee';?>" style="background-color: #fff; color: #35A88E; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Preencher Currículo</a>
                     </div> 
                 </div>
             </div>
         </section>
     </div>
 
-    <section class="categoriesCards" style="margin: 4em 0;">
+    <!-- <section class="categoriesCards" style="margin: 4em 0;">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -203,7 +203,7 @@
                 </div>
             </div>
             <div class="row">
-                <!-- Column -->
+           
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-header">
@@ -239,9 +239,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="categoriesCards" style="margin: 4em 0;">
+    <section class="categoriesCards" style="margin: 4em 0;" id="orcamentos">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -257,9 +257,9 @@
                         <div class="card-img pb-3 pt-3 text-center">
                             <i class="fa fa-map-marker fa-4x" style="color: #35A88E"></i>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body" style="padding: 0 1rem 1rem 1rem;">
                             <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Localização</h3>
-                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> Após sua ceia de Natal. Depois do Divino, vem o Sacrilégio.</p>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center"> R. Profa. Adalgisa Paiva, 1196 - sala 09 - Morada do Sol, Teresina - PI, 64056-490</p>
                             <div class="row text-center">
                                 <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
                             </div>
@@ -273,7 +273,7 @@
                         </div>
                         <div class="card-body">
                             <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Email</h3>
-                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center">Metal / Rock Autoral, Solidariedade e Entretenimento. </p>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center">xtaffonline@gmail.com </p>
                             <div class="row text-center">
                                 <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
                             </div>
@@ -287,7 +287,7 @@
                         </div>
                         <div class="card-body">
                             <h3 style="font-family: 'Roboto Slab', serif; color:#404040; font-weight:700; text-align: center">Telefones</h3>
-                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center">Melhor bloco de Rua da Zona Leste de Teresina. Cerca de 8 mil pessoas em 2019.</p>
+                            <p class="m-b-0 m-t-10" style="font-family: 'Lato', sans-serif; text-align: center">(86) 99441-9842</p>
                             <div class="row text-center">
                                 <a class="btn mt-4 text-center" href="#" style="background-color:#35A88E; color: #fff ; margin: 0 auto; font-family: 'Lato', sans-serif; font-weight:700; line-height:1.6em; text-transform:uppercase">Ver Informações</a>
                             </div>
@@ -333,7 +333,7 @@
         </div>
     </section>
 
-    <section class="categoriesCards" style="margin: 4em 0 1em 0;">
+    <section class="categoriesCards" style="margin: 4em 0 1em 0;" id="equipe">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
